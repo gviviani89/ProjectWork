@@ -1,0 +1,19 @@
+{
+  "name": "pwfuoco",
+  "version": "1.0.0",
+  "description": "prova",
+  "main": "index.js",
+  "dependencies": {
+    "grunt-contrib-jshint": "^1.1.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pasquale grasso giuseppe viviani",
+  "license": "ISC"
+}
