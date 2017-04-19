@@ -1,0 +1,17 @@
+{
+  "name": "pwfuoco",
+  "description": "project work gruppo fuoco",
+  "main": "index.html",
+  "authors": [
+    "Pasquale Grasso - Giuseppe Viviani"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
