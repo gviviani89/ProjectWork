@@ -1,0 +1,141 @@
+.navigationbar(){
+  height:100px;
+  position:fixed;
+  z-index:10000;
+  width:100%;
+  overflow: hidden;
+}
+
+.footerConf(){
+  font-size: 12px;
+  padding: 20px 0;
+  background-color: grey;
+  color: white;
+}
+
+.jumbo(){
+  display: @displayflex;
+  align-items: @itemalign;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color:@color-1;
+  height: 200px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+  margin:0px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300px;
+}
+footer .row {
+  display: @displayflex;
+  align-items: @itemalign;
+}
+
+nav,.navbar,.navbar-inverse{
+  .navigationbar();
+}
+section .row img{
+  width:460px;
+  height:250px;
+}
+
+.jumbotron2 div div h2{
+  font-size: 72px;
+}
+
+.jumbotron2 div div h3{
+  font-size: 56px;
+}
+
+.jumbotron2 {
+  .jumbo();
+  background-image:url('../img/8.jpg');
+  height: 700px;
+}
+
+.jumbotron {
+  .jumbo();
+}
+
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: @color-1;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: @color-1;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: @color-2;
+  text-shadow: none;
+  background-color:@color-1;
+}
+
+.btn.btn-primary:hover {
+  color: @color-1;
+  background-color: @color-2;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: @color-1;
+  margin: 0 0 30px;
+}
+
+footer {
+  .footerConf();
+}
+
+footer .col-sm-8 {
+  display: @displayflex;
+  justify-content: flex-end;
+}
+
+
+footer .row ul {
+  list-style: none;
+  padding-right:50px;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+footer .row span{
+  padding-left:50px;
+
+}
+.carousel-inner > .item > img,
+ .carousel-inner > .item > a > img {
+
+     width: 100%;
+     margin: 30px;
+     height: 800px;
+ }
+
+ #myCarousel{
+
+  // background-color: black;
+   border-left: 100px;
+   border-right: 100px;
+   border-color: black;
+
+ }

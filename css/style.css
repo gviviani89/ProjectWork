@@ -1,0 +1,152 @@
+#intestazione {
+  text-align: center;
+  font-size: 48px;
+  color: #888;
+  margin-top: 100px;
+}
+/*
+.carousel-inner{
+  .struttura();
+  .strutturaImg();
+  height: 375px;
+  width: 575px;
+}*/
+.Titolo {
+  text-align: center;
+  font-size: 48px;
+  color: #888;
+  margin-top: 100px;
+}
+#immagineSede img {
+  float: right;
+  width: 100%;
+  background-color: #888;
+  max-width: 600px;
+  max-height: 600px;
+  border-radius: 20px;
+  border: #888 3px solid;
+}
+.Paragrafo {
+  line-height: 1.65;
+}
+.autoSport img {
+  width: 100%;
+  background-color: #888;
+  max-width: 600px;
+  max-height: 600px;
+  border-radius: 20px;
+  border: #888 3px solid;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300px;
+}
+footer .row {
+  display: flex;
+  align-items: center;
+}
+.navbar,
+.navbar-inverse {
+  height: 100px;
+  position: fixed;
+  z-index: 10000;
+  width: 100%;
+  overflow: hidden;
+}
+section .row img {
+  width: 460px;
+  height: 250px;
+}
+.jumbotron2 div div h2 {
+  font-size: 72px;
+}
+.jumbotron2 div div h3 {
+  font-size: 56px;
+}
+.jumbotron2 {
+  display: flex;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #fff;
+  height: 200px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+  margin: 0px;
+  background-image: url('../img/8.jpg');
+  height: 700px;
+}
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #fff;
+  height: 200px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+  margin: 0px;
+}
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+.col-md-6 {
+  margin: 0 0 30px;
+}
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #fff;
+}
+.btn.btn-primary:hover {
+  color: #fff;
+  background-color: #fbd1d5;
+}
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #fff;
+  margin: 0 0 30px;
+}
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+  background-color: grey;
+  color: white;
+}
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+footer .row ul {
+  list-style: none;
+  padding-right: 50px;
+}
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+footer .row span {
+  padding-left: 50px;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 100%;
+  margin: 30px;
+  height: 800px;
+}
+#myCarousel {
+  border-left: 100px;
+  border-right: 100px;
+  border-color: black;
+}

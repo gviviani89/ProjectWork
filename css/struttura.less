@@ -1,0 +1,52 @@
+.struttura(){
+  width: @massima-width;
+  background-color: @main-color;
+
+}
+
+.strutturaImg(){
+  max-width: 600px;
+  max-height: 600px;
+  border-radius: 20px;
+  border: @main-color 3px solid;
+}
+
+.strutturaTitolo(){
+  text-align: center;
+  font-size: 48px;
+  color: @main-color;
+  margin-top: 100px;
+}
+
+
+#intestazione{
+  .strutturaTitolo();
+  //font: Roboto;
+
+}
+/*
+.carousel-inner{
+  .struttura();
+  .strutturaImg();
+  height: 375px;
+  width: 575px;
+}*/
+
+.Titolo {
+  .strutturaTitolo();
+}
+
+#immagineSede img{
+  float:right;
+  .struttura();
+  .strutturaImg();
+}
+
+.Paragrafo {
+  line-height: 1.65;
+}
+
+.autoSport img{
+  .struttura();
+  .strutturaImg();
+}
